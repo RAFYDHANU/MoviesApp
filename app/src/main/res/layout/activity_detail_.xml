@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail_Activity">
+
+    <ImageView
+        android:id="@+id/Gambar"
+        android:layout_width="227dp"
+        android:layout_height="274dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="3dp"
+        tools:srcCompat="@tools:sample/avatars[12]" />
+
+    <TextView
+        android:id="@+id/Judul"
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="24dp"
+        android:text="judul"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/penjelasan"
+        android:layout_width="match_parent"
+        android:layout_height="319dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginBottom="78dp"
+        android:text="penjelasan"
+        android:textSize="17dp" />
+</RelativeLayout>
